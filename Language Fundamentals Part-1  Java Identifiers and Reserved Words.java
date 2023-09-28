@@ -1,5 +1,5 @@
-																Language Fundamentals Part-1  Java Identifiers and Reserved Words
-															==========================================================================
+						Language Fundamentals Part-1  Java Identifiers and Reserved Words
+   					   ==========================================================================
 
 
 -------------------------
@@ -131,19 +131,19 @@ Rule's for defining java identifiers
 
 ->					
 
-											Reserved word (53).	
-													|
-					----------------------------------------------------------------------------								
-					|																		   |		
-			    Keywords(50)															 Reserved Literals (3)
-					|																			|
-		------------------------------															|-true
-		|					         |															|-false 
- Used Keywords(48)			  unused Keywords(2)												|-null
-	  |-if							|
-	  |-else						|-goto
-	  |-switch						|
-	  .								|-const
+									Reserved word (53).	
+										|
+					----------------------------------------------------------------------------
+					|									   |
+				Keywords(50)								 Reserved Literals (3)
+					|									|
+		------------------------------									|-true
+		|			      |                 						|-false 
+ Used Keywords(48)			  unused Keywords(2)							|-null
+	  |-if					|
+	  |-else				|-goto
+	  |-switch				|
+	  .					|-const
 	  .
 	  .	
 
