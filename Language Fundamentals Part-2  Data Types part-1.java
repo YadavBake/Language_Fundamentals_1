@@ -1,6 +1,6 @@
 					
-															Language Fundamentals Part-2 || Data Types part-1
-														========================================================
+									Language Fundamentals Part-2 || Data Types part-1
+			   					     ========================================================
 
 ---------------
  3. Data type.	
@@ -21,19 +21,19 @@
 
 
 												
-														Primitive Data Types (8)   char ch = '-a'; boolean b = -false; // invalid 
+									                                                    Primitive Data Types (8)   char ch = '-a'; boolean b = -false; // invalid 
 																   |
 								----------------------------------------------------------------------------------
-								|																			 |
-					   Numeric Data types							int x =10;						   Non-Numeric data Type 
-								|									int x= -10								 |
+								|										 |
+					              Numeric Data types				int x =10;		   Non-Numeric data Type 
+								|					int x= -10				 |
 				----------------------------------					double d = -10.5		----------------------------------	
-				|								 |											|								 |
-		Integeral Data types 			Floating-point data type 						  char							  boolean 	
-				|								 |
+				|				|				                                	|	 			 |
+		Integeral Data types 			Floating-point data type 						      char			      boolean 	
+				|					|
 				|-byte					-----------------------
-				|-short					|					  |
-				|-int				 float 					double 	
+				|-short					|		      |
+				|-int				      float 		   double 	
 				|-long
 	
 -> Except boolean and char remaining data type are considard as singed data types because we can reprasent both positive and Negative numbers.
@@ -44,17 +44,17 @@
 -------------------
 
   -> 
-															|-> Most significant Bit.
-	Size : 1 byte(8 bit).									|	
-															MSB
-	MAX_VALUE: + 127										-------------------------------------------------------------
-	MIN_VALUE: -128 										|  X   | 1	 |  1	|	1	|	1	|	1	|	1	|	1	|
-	Range: -126 to 127  									--|----------------------------------------------------------
-															  |	    2'6		2'5		2'4   2'3	  2'2		2'1		2'0	
-															  | 
-														signed bit 			
-														 0 ->+ve				64+32+16+8+4+2+1
-														 1->-ve					= 127	
+						|-> Most significant Bit.
+	Size : 1 byte(8 bit).			|	
+						MSB
+	MAX_VALUE: + 127			-------------------------------------------------------------
+	MIN_VALUE: -128                 	|  X   | 1   |  1  |	1   |	1   |	1  |	1  |	1   |
+	Range: -126 to 127  	  	        ---|----------------------------------------------------------
+						   |	 2'6   2'5    2'4     2'3    2'2     2'1      2'0	
+						   | 
+						signed bit 			
+						 0 ->+ve				64+32+16+8+4+2+1
+						 1->-ve					= 127	
 				
 	- The most significant bit access sign bit.
 
@@ -109,15 +109,6 @@
 		int  x  = 2,14,748,3648l;//invalid CE: PLP found:long required : int .
 		int  x  = true;//invalid CE: incompatible type found: boolean required:int.
 
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
 	
 
 
