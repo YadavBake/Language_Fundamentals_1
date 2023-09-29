@@ -21,8 +21,8 @@
 
 
 												
-									                                                    Primitive Data Types (8)   char ch = '-a'; boolean b = -false; // invalid 
-																   |
+									                     Primitive Data Types (8)   char ch = '-a'; boolean b = -false; // invalid 
+											   	       |
 								----------------------------------------------------------------------------------
 								|										 |
 					              Numeric Data types				int x =10;		   Non-Numeric data Type 
