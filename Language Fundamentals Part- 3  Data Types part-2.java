@@ -1,6 +1,6 @@
 
-															Language Fundamentals Part- 3 || Data Types part-2
-														========================================================
+											Language Fundamentals Part- 3 || Data Types part-2
+									   	     ========================================================
 -------------------
  Long Data types 
 -------------------
@@ -36,17 +36,17 @@ Note: All the above data types (byte,short,int long) ment for reprasenting integ
 
 
     ------------------------------------------------------------------------------
-	|		float	 				     |							double       |
-	------------------------------------------------------------------------------
-	|1. If we want 1 to 5 decimal places | 2. If we want 14 to 15 decimal places |
-	|   of accuresy then e should go for |    of accuresy then e should go for   |
-	|   float.                           |     double.                           |
-    |									 |										 |		
+    |		float	 		     |		double                   |
+    ------------------------------------------------------------------------------
+    |1. If we want 1 to 5 decimal places | 2. If we want 14 to 15 decimal places |
+    |   of accuresy then e should go for |    of accuresy then e should go for   |
+    |   float.                           |     double.                           |
+    |					 |			   	         |		
     |2 float follows single precision.	 |2. double follows double precision.    |
-	|                                    |                                       |
-	|3. Size: 4 byte.					 |3. Size: 8 byte.                       |
-	|                                    |                                       |
-	|4. Range: -3.4e38 to 3.4e38.		 |4. Range: - 1.7e308 to 1.7e308.        |
+    |                                    |                                       |
+    |3. Size: 4 byte.	  	         |3. Size: 8 byte.                       |
+    |                                    |                                       |
+    |4. Range: -3.4e38 to 3.4e38.	 |4. Range: - 1.7e308 to 1.7e308.        |
     ------------------------------------------------------------------------------
 
 
@@ -109,7 +109,7 @@ Note: All the above data types (byte,short,int long) ment for reprasenting integ
 -----------------------------------------------
 
 				-----------------------------------------------------------------------------------------------------------------------------------------------
-				| Data types 	|		size 		|		Range 							         | Wrapper class		|			default value         |
+				| Data types 	|		size|		Range 				     | Wrapper class	    |		default value         |
 				|---------------|-------------------|------------------------------------------------|----------------------|---------------------------------|
 				|               |                   |                                                |                      |                                 |
 				|1. byte        |  1 byte           | -2'7 to 2-1'7(-128 to 127)                     | Byte                 | 	0                             |
@@ -118,7 +118,7 @@ Note: All the above data types (byte,short,int long) ment for reprasenting integ
 				|               |                   |                                                |                      |                                 |
 				|3. int         |  4 byte           | -2'31 to 2-1'31(-2147483648 to 2147483647 )    | Integer              |   0                             |
 				|               |                   |                                                |                      |                                 |
-				|4. long 	    |  8 byte           | -2'63 to 2-1'63                                | Long                 |   0                             |
+				|4. long 	|  8 byte           | -2'63 to 2-1'63                                | Long                 |   0                             |
 				|               |                   |                                                |                      |                                 |
 				|5. float       |  4 byte           | -3.4e38 to 3.4e38                              | Float                |   0.0                           |
 				|               |                   |                                                |                      |                                 |
@@ -127,7 +127,7 @@ Note: All the above data types (byte,short,int long) ment for reprasenting integ
 				|7. boolean     |   NA              | NA[But allowed values are true/false.          | Boolean              |	false                         |
 				|               |                   |                                                |                      |                                 |
 				|8. char        |  2 byte           | 0 to 65535                                     | Charcter             | 0 [ reprasent space charcters]  |
-				|				|                   |                                                |                      |                                 |
+				|		|                   |                                                |                      |                                 |
 				------------------------------------------------------------------------------------------------------------------------------------------------
 				
 	
