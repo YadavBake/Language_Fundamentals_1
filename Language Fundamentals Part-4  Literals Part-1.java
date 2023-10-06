@@ -1,6 +1,6 @@
 
-														Language Fundamentals Part-4 || Literals Part-1
-													 ======================================================
+										Language Fundamentals Part-4 || Literals Part-1
+						 			    ======================================================
 ----------
  Literals 
 ----------
@@ -9,10 +9,10 @@
 
 		Ex. 
 
-		int 					x   						= 					10 ;
-		 |						|												|
-		 |						|												|
-Data types|keywords 	Name of variable |identifier					Constant value |literals.
+		int 					x   						= 			10 ;
+		 |					|									|
+		 |					|									|
+Data types|keywords 	                    Name of variable |identifier					    Constant value |literals.
 
 ---------------------
  Integeral Literals
@@ -25,7 +25,7 @@ Data types|keywords 	Name of variable |identifier					Constant value |literals.
 
 
 			int x = 10;
-					|---decimal form .
+				|---decimal form .
 	
 	2. Octal form (base-8) :- allowed digits are '0 to 7' literal value should be prifixed with  0.
 			
@@ -76,7 +76,7 @@ Data types|keywords 	Name of variable |identifier					Constant value |literals.
 										0*16'0 + 1*16'1 = 16
 										
 					System.out.println(x+".."+y+"...."+z);
-				}					   10	  8 	   16
+				}			   10	  8 	   16
 		}
 		
 	-> By default every integeral literal is of int type but we can specify explicityl as long type by sufixed with small 'l' or capital 'L'.
@@ -154,9 +154,9 @@ conclusions
 	-> We can specify floating point leteral even in exponential form (Scientific notation).
 	
 		double d = 1.2e3;			1.2e3
-		Sop(d);						=1.2*10'3
-									= 1.2*1000
-									= 1200.0
+		Sop(d);					=1.2*10'3
+							= 1.2*1000
+							= 1200.0
 
 	
 		float f = 1.2e3;
