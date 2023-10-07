@@ -1,6 +1,6 @@
 
-															Language Fundamentals Part-5 || Literals part-2
-														=====================================================	
+											Language Fundamentals Part-5 || Literals part-2
+										      =====================================================	
 														
 ----------------- 
  char Literals  
@@ -54,24 +54,24 @@
 													
 						
 											------------------------------------------ 
-											|	Escap charcter 	|	  Description    |
+											|  Escap charcter 	|  Description    |
 											------------------------------------------
-											|1. 	\n 			|	new line.        |
+											|1. 	\n 	    |	new line.        |
 											|                   |                    |
-											|2.  \t				|	Horizontal tab.  |
+											|2.  \t		    |	Horizontal tab.  |
 											|                   |                    |
-											|3.  \r 			|	Carriage return. |
+											|3.  \r 	    |	Carriage return. |
 											|                   |                    |
-											|4.  \b 			|	Back space.      |
+											|4.  \b 	    |	Back space.      |
 											|                   |                    |
-											|5.  \f 			|	form feed.       |
+											|5.  \f 	    |	form feed.       |
 											|                   |                    |
-											|6.  \'				|	single quate.    |
+											|6.  \'		    |	single quate.    |
 											|                   |                    |
-											|7.  \"				|	double quate.    |
+											|7.  \"		    |	double quate.    |
 											|                   |                    |
-											|8.  \\				|	Blacl slash.     |
-											|					|					 |
+											|8.  \\		    |	Blacl slash.     |
+											|		    |			 |
 											------------------------------------------	
 									
 									
@@ -155,20 +155,20 @@
 		double d = 1_2_3_456_.7_8_9; |==> //invalid  
 		double d = 1_23_456_7_8_9_;  |
 		
-----------------------------------------------------------------------------
-|											   |	                       |	
-|			byte---->short---                  |                           |
-|			 1b		  2b    |                  |                           |
-|							|                  |                           |
-|							|                  |                           |
-|							|                  |                           |
-|							|--->|			   | 	                       |
-|				   |------------>|->int-->long-|->double-->float           |
-|			char---|				4b	    8b |	4b		8b             |
-|			 2b                                |                           |
-|			                                   |                           |
------------------------------------------------------------------------------
-			Integeral 								float-point 
+----------------------------------------------------------------------------------
+|						               |                  |	
+|			byte---->short---|                     |                  | 
+|			 1b       2b     |                     |                  |
+|					 |                     |                  |
+|					 |                     |                  |
+|					 |                     |                  |
+|					 |--->|  |             | 		  |		
+|				   |------------>|->int-->long-|->double-->float  |
+|			char---|		     4b	    8b |    4b	    8b    |
+|			 2b                                    |                  |
+|			                                       |                  |
+-----------------------------------------------------------------------------------
+			Integeral 				   float-point 
 
 
 Note: 8 byte long we can assing to 4 byte float variable because both are following different memory reprasentation internally.
