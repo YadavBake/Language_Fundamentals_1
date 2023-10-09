@@ -1,6 +1,6 @@
 
-															Language Fundamentals Part-6 || Arrays Part-1
-														===================================================
+											Language Fundamentals Part-6 || Arrays Part-1
+										      ===================================================
 														
 ---------------
   Array's		
@@ -112,9 +112,9 @@
 		Ex. 
 		
 			int[] a = new int[3];
-											  ---------------------	
-										a---> |		|		|	  |
-											  ---------------------
+										       ---------------------	
+										a---> |    |	  |	  |
+										      ---------------------
 
 										System.out.println(a.getclass().getName()); [I			
 
@@ -128,20 +128,20 @@
 
 
 			--------------------------------------------------------	
-			|	Array Type 			|	   Correspoding class Name |
+			|	Array Type 	    | Correspoding class Name |
 			--------------------------------------------------------	
-			|	                    |                              |
-			|	int[]				|		[I                     |
-			|	int[][]				|		[[I                    |
-			|	double[]			|		[D                     |
-			|	short[]				|		[S                     |
-			|	byte[]				|		[B                     |
-			|	boolean[]			|		[Z                     |
+			|	                    |                          |
+			|	int[]		    |		[I             |
+			|	int[][]		    |		[[I            |
+			|	double[]	    |		[D             |
+			|	short[]		    |		[S             |
+			|	byte[]		    |		[B             |
+			|	boolean[]	    |		[Z             |
 			--------------------------------------------------------
 
 
 
-	Loop Holls related to Array's 
+   Loop Holls related to Array's 
 -----------------------------------	
 	
 	1. At the time of array creation compulsory we should specify the size otherwise we will get compile time error.
@@ -168,20 +168,20 @@
 
 		Ex. 
 		
-		int[] x = new int[10];//valid 														----------------------------------------------------------------------------			
-		int [] x = new int['a'];//valid 97                                                  |											   |	                       |	
-		byte b =20;                                                                         |			byte---->short---                  |                           |
-		int[] x = new int[b]; //valid                                                       |			 1b		  2b    |                  |                           |
-		                                                                                    |							|                  |                           |
-		short s = 30;                                                                       |							|                  |                           |
-		int[] x = new int[s]; //valid                                                       |							|                  |                           |
-		                                                                                    |							|--->|			   | 	                       |
-		int[] x = new int[10l];//invalid CE: PLP found: long, required int.                 |				   |------------>|->int-->long-|->double-->float           |
-		                                                                                    |			char---|				4b	    8b |	4b		8b             |
-		                                                                                    |			 2b                                |                           |
-		                                                                                    |			                                   |                           |
+		int[] x = new int[10];//valid 							    ----------------------------------------------------------------------------			
+		int [] x = new int['a'];//valid 97                                                  |	                    			       |	                |	
+		byte b =20;                                                                         |			byte---->short---	       |	                |
+		int[] x = new int[b]; //valid                                                       |			 1b	  2b     |             |                        |
+		                                                                                    |					 |             |                        |
+		short s = 30;                                                                       |					 |             |                        |
+		int[] x = new int[s]; //valid                                                       |					 |             |		        |
+		                                                                                    |					 |--->   |     |    		        |
+		int[] x = new int[10l];//invalid CE: PLP found: long, required int.                 |				   |------------>|->int-|->long-->double-->float|
+		                                                                                    |			char---|		4b     |   8b  	    4b	     8b |
+		                                                                                    |			 2b                            |                        |
+		                                                                                    |			                               |                        |
 		                                                                                    -----------------------------------------------------------------------------
-		                                                                                    			Integeral 								float-point 
+		                                                                                    			Integeral 				float-point 
 	 	
 	 	
 	5. The maximum allowed array in java is '2147483647' which the maximum value of int data type.
