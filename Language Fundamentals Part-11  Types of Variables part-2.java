@@ -1,6 +1,6 @@
 
-														Language Fundamentals Part-11 || Types of Variables :part-2
-													==================================================================	
+												Language Fundamentals Part-11 || Types of Variables :part-2
+										   	    ==================================================================	
 														
 =====================														
    Local variable 
@@ -14,9 +14,9 @@
  
 	m1() {					static {				Test () {					for(int i = 0; i<=10;i++){
 		                    	                    	
-		int x = 10;         	int  x = 10;        	int  x = 10;				System.out.println(i);
+	int x = 10;         	                   int  x = 10;        				int  x = 10;						System.out.println(i);
 																				
-	}                       }                       }								}
+	}                                    }                                              }								}
 	
 	
 	
@@ -73,23 +73,23 @@
 									System.out.println("Hello");                		System.out.println(x);
 								}                                               	}
 							} //valid o/p: hello                                } //invalid CE: variable might not have been
-																				// initialized.
+													     // initialized.
 							
 							
 	
   
 	Ex.
 
-	class Test {																class Test {														
+	class Test {									      class Test {														
 		                                                                        	
 		public static void main(String args[]) {                                	public static void main(String args[]) {
 			                                                                    		
 			int x ;                                                             		int x ;
-			if(args.length > 0){                                                		if(args.length > 0){									java Test  A B 
-																																				 o/p : 10
+			if(args.length > 0){                                                		if(args.length > 0){						java Test  A B 
+																					 o/p : 10
 				x = 10;                                                         			x = 10;
-			}                                                                   		} else 													java Test
-			System.out.println(x);                                              		{														 o/p; 20
+			}                                                                   		} else 								java Test
+			System.out.println(x);                                              		{								 o/p; 20
 		}                                                                       			x =20;
     } //invalid CE: variable  x might not have been                             		}
       // initialized.                                                           		System.out.println(x);
@@ -190,25 +190,25 @@
 	 
 	 
 	 
-		class Test {																	I 	instance level
-			                                                                            ---------------------
+		class Test {									I  instance level
+			                                                                        ---------------------
 			int [] x ;                                                                  
 			                                                                            	1. int [] x ; 
 			public static void main(String args[]){                                     	
-				                                                                        		Sysmte.out.println(obj.x); //null
-				Test t = new Test();                                                    		Sysmte.out.println(obj.x[0]); //RE: NullPointerException
+				                                                                      	Sysmte.out.println(obj.x); //null
+				Test t = new Test();                                                  	Sysmte.out.println(obj.x[0]); //RE: NullPointerException
 				                                                                        		
 				System.out.println(t.x); // null                                        
-				System.out.println(t.x[0]); // RE: NullPointerException                 	2. int [] x = new int[3];
+				System.out.println(t.x[0]); // RE: NullPointerException               2. int [] x = new int[3];
 			}                                                                           
 		}                                                                               		System.out.println(obj.x); [I3e@24
 		                                                                                		System.out.println(obj.x[0]);// 0
 		                                                                                		
 	 
-	II static level 													 III Local level 
-------------------------                                                ------------------
+    II static level							 			III Local level 
+------------------------                                               			      ------------------
                                                                         
-	1. static int [] x ;                                                	1.  int [] x ; 
+	1. static int [] x ;                                                			1.  int [] x ; 
 	                                                                    	
 	                                                                    	
 		System.out.println(x); //null                                   		System.out.println(x); //CE: variable x might not have been initialized
@@ -216,13 +216,13 @@
 		                                                                    	
 	                                                                         
 	                                                                    	
-	2. static int [] x = new int[3];                                    	2. int [] x = new int[3];
+	2. static int [] x = new int[3];                                    			2. int [] x = new int[3];
 	                                                                    	
-		System.out.println(x);// [I3e@24                                    	System.out.println(x);// [I@3es35
-	    System.out.println(x[0]); // 0                                          System.out.println(x[0]); // 0 
+		System.out.println(x);// [I3e@24                                    			System.out.println(x);// [I@3es35
+	    System.out.println(x[0]); // 0                                          			System.out.println(x[0]); // 0 
 	                                                                    		
-	                                                                    	Note: Once we creates an array every array element by default initialized with default values
-	                                                                    		  Erespective of whether it is instance or static or local array.
+	                                                                    			Note: Once we creates an array every array element by default initialized with default values
+	                                                                    		  	     Erespective of whether it is instance or static or local array.
 
 
 
