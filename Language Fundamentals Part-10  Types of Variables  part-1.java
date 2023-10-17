@@ -1,13 +1,13 @@
 
-													Language Fundamentals Part-10 || Types of Variables : part-1
-												====================================================================
+											Language Fundamentals Part-10 || Types of Variables : part-1
+										     ====================================================================
 
 ---------------------
   Type of variables												
 ---------------------
 
 	
-	Division-1 
+   Division-1 
  ===============
 
 	-> Based on type of value reprasented by a variable all variables are divided into two types.
@@ -22,10 +22,10 @@
 		
 		
 		 Ex.
-														---------
+									    ---------
 			Student s = new Student(); 		s--------->| Object  |
-													   |	     |
-													   ----------
+									   |	     |
+									    ----------
 													   
   Division-2 
 =============
@@ -56,10 +56,10 @@
 		
 		Ex. 
 		
-			class Student {								---------------     		---------------       		---------------
+			class Student {					---------------     	    ---------------       	---------------
 				                                s1----> |name = "Ravi"|     s2----> |name ="Durga"|   s600----> |name = "Siva"|
-				String = name ;                 	    |rollno = 101 |     	    |rollno = 102 |       	    |rollno = 600 |
-				int = rollno;                   		---------------     		---------------       		---------------
+				String = name ;                 	|rollno = 101 |     	    |rollno = 102 |       	|rollno = 600 |
+				int = rollno;                   	---------------     	    ---------------       	---------------
 				int x = 10;
 			public static void main(String []args) {
 				
@@ -142,17 +142,17 @@
 		int rollno;                                                         
 		String cname;                                                       
                                                                             
-		static int x = 10;                                          							----------------------
-                                                                    						  	|  					 |
-			public static void main(String args[]){                 						    | Cname= "Durga Soft"|<---------------	
-				                                                    			|------------>	|                    |				  |	
-				Student s = new Student();                          			|				----------------------				  |
-				System.out.println(s.x);                            			|							|						  |
-				System.out.println(Student.x);                      			|							|						  |	
-				System.out.println(x);                              		---------------     		---------------       		---------------
+		static int x = 10;                                          						----------------------
+                                                                    						  	|  		     |
+			public static void main(String args[]){                 					| Cname= "Durga Soft"|<---------------	
+				                                                    			|------------>	|                    |  	      |	
+				Student s = new Student();                          			|		----------------------	   	      |
+				System.out.println(s.x);                            			|			|			      |
+				System.out.println(Student.x);                      			|			|   			      |	
+				System.out.println(x);                              	     ---------------     	---------------       	    ---------------
 				                                                    s1----> |name = "Ravi"|     s2----> |name ="Durga"|   s600----> |name = "Siva"|
-			}                                                       	    |rollno = 101 |     	    |rollno = 102 |       	    |rollno = 600 |
-			public void m1() {                                      		---------------     		---------------       		---------------
+			}                                                       	    |rollno = 101 |     	|rollno = 102 |       	    |rollno = 600 |
+			public void m1() {                                      	    ---------------     	---------------             ---------------
 				
 				System.out.println(x);
 	}
@@ -179,25 +179,25 @@
  11. Static variables also know as class level variables or fields.
  
  
-		class Test {																	---------------
-																						|			 |
-			static int x = 10;													  ----->|	x = 10	 |<-------------------------
-			int y = 20;															 |		|		888	 |						  |
-																				 |		---------------						  |	
-			public static void main(String args[]){                              |											  | 
-															                     |											  |	
-				Test t1 = new Test();											 |											---------------									
-				t1.x=888;                                                        |                                          |			 |
+		class Test {										---------------
+													|		 |
+			static int x = 10;							  ----->|	x = 10	 |<-------------------------
+			int y = 20;							        |	|	888	 |			 |
+											        |	 ---------------			 |	
+			public static void main(String args[]){                                 |						 | 
+											        |						 |	
+				Test t1 = new Test();					        |					    ---------------									
+				t1.x=888;                                                        |                                          |		 |
 				t1.y=999;                                                        |                                          |	y = 20	 |
-				                                                                 |                                          |			 |
+				                                                                 |                                          |		 |
 				Test t2 = new Test();                                            |                                          ---------------
-																				 |  											  t2 		
-				System.out.println(t2.x +"....."+t2.y);							 |		---------------
-			}                       888           20                             |      |			 |
-		}                                                                        |----> |	y = 20	 |
-                                                                                        |		999	 |
-                                                                                        ---------------
-																								t1 
+												 |  						  t2 		
+				System.out.println(t2.x +"....."+t2.y);				 |  ---------------
+			}                       888           20                                 |  |		 |
+		}                                                                            |----> |	y = 20	 |
+                                                                                                    |	999	 |
+                                                                                        	    ---------------
+													 t1 
 																						
 
 
