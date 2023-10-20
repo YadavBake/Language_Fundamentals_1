@@ -1,6 +1,6 @@
 
-															Language Fundamentals Part-15|| Command Line Arguments
-														============================================================
+												Language Fundamentals Part-15|| Command Line Arguments
+									   		     ============================================================
 ------------------------
  Command Line Arguments 
 ------------------------
@@ -20,3 +20,25 @@
 		args [0]   [1]	   [2]	 // Like these we can access the array 
 		
 	args.length == 3 	
+
+
+-> 
+
+		class {
+
+			public static void main(String args[]) {
+
+				int n = 
+
+
+
+
+
+
+
+
+
+
+
+		
+		
